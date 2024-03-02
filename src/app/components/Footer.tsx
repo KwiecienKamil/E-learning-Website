@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLaptopCode, FaLinkedin, FaYoutube } from "re
 
 const Footer = () => {
   return (
-    <div className="relative py-8 px-[320px] flex items-center bg-whiteGray">
+    <div className="relative py-8 px-[320px] flex items-center bg-whiteGray cursor-default">
         <div className="w-full flex justify-between">
         <div className="flex flex-col w-[300px] gap-4 pt-8">
          <Link href="/" className="flex items-center">
