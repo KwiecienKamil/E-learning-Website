@@ -15,10 +15,6 @@ const NavLinks = () => {
             title: "Lessons",
             path: "/lessons"
         },
-        {
-            title: "About",
-            path: "/about"
-        },
     ]
   return (
     <div className="h-full flex items-center font-semibold">

@@ -4,9 +4,9 @@ import { FaFacebook, FaInstagram, FaLaptopCode, FaLinkedin, FaYoutube } from "re
 
 const Footer = () => {
   return (
-    <div className="relative py-8 px-[320px] flex items-center bg-whiteGray cursor-default">
-        <div className="w-full flex justify-between">
-        <div className="flex flex-col w-[300px] gap-4 pt-8">
+    <div className="relative py-8 xl:px-[250px] px-[200px] bg-whiteGray cursor-default">
+        <div className="grid grid-cols-4 justify-items-center">
+        <div className="flex flex-col w-[200px] gap-4 pt-8">
          <Link href="/" className="flex items-center">
             <span>
               <FaLaptopCode size={30} className="text-primary" />
