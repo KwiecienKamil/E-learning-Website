@@ -21,7 +21,7 @@ const NavLinks = () => {
       {Navlinks.map((link) => {
         const isActive = (path:string) => path === pathname
         return(
-          <Link href={link.path} key={link.title} className={isActive(link.path) ? "h-full flex items-center px-4 text-primary bg-navHover font-semibold" : "h-full flex items-center px-4 hover:text-primary hover:bg-navHover transition-all duration-300 font-semibold"}>{link.title}</Link>
+          <Link href={link.path} key={link.title} className={isActive(link.path) ? "h-full xl:text-lg md:text-md text-sm flex items-center px-4 text-primary bg-navHover font-semibold" : "h-full xl:text-lg md:text-md text-sm flex items-center px-4 hover:text-primary hover:bg-navHover transition-all duration-300 font-semibold"}>{link.title}</Link>
         )
         
       }

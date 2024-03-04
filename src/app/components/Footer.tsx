@@ -4,9 +4,9 @@ import { FaFacebook, FaInstagram, FaLaptopCode, FaLinkedin, FaYoutube } from "re
 
 const Footer = () => {
   return (
-    <div className="relative py-8 xl:px-[250px] px-[200px] bg-whiteGray cursor-default">
-        <div className="grid grid-cols-4 justify-items-center">
-        <div className="flex flex-col w-[200px] gap-4 pt-8">
+    <div className=" relative flex justify-center py-8 xl:px-[250px] px-[5%] bg-whiteGray cursor-default">
+        <div className="w-screen grid md:grid-cols-4 grid-cols-2 gap-4 justify-items-center pl-8">
+        <div className="flex flex-col w-[200px] gap-2 ">
          <Link href="/" className="flex items-center">
             <span>
               <FaLaptopCode size={30} className="text-primary" />
@@ -17,7 +17,7 @@ const Footer = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quisquam sed neque ipsam rerum ex quam ullam.</p>
         </div>
         </div>
-        <div className="flex flex-col gap-4 pt-8 text-sm">
+        <div className="flex flex-col pt-1 gap-4 text-sm">
         <h6 className="font-semibold text-md">GET HELP</h6>
         <div className="flex flex-col gap-1">
             <p>Contact Us</p>
@@ -25,20 +25,10 @@ const Footer = () => {
             <p>FAQ</p>
         </div>
         </div>
-        <div className="flex flex-col gap-4 pt-8 text-sm">
-        <h6 className="font-semibold text-md">PROGRAMMS</h6>
-        <div className="flex flex-col gap-1">
-            <p>Art & Design</p>
-            <p>Business</p>
-            <p>It & Software</p>
-            <p>Langages</p>
-            <p>Programming</p>
-        </div>
-        </div>
-        <div className="flex flex-col gap-4 pt-8 text-sm">
+        <div className="w-[180px] flex flex-col gap-4 pt-1 text-sm mr-6 md:mr-0">
         <h6 className="font-semibold text-md">CONTACT US</h6>
         <div className="flex flex-col gap-1">
-            <p>Address: 2321 Programming Str, Lorem Ipsum 12, Warsaw</p>
+            <p>Address: 2321 Programming Str, Warsaw</p>
             <p>Tel: +(123) 2500-567-8988</p>
             <p>Email: moderncoder.com</p>
             <div className="flex items-center gap-2">
@@ -49,6 +39,17 @@ const Footer = () => {
             </div>
         </div>
         </div>
+        <div className="flex flex-col pt-1 gap-4 text-sm">
+        <h6 className="font-semibold text-md">PROGRAMMS</h6>
+        <div className="flex flex-col gap-1">
+            <p>Art & Design</p>
+            <p>Business</p>
+            <p>It & Software</p>
+            <p>Langages</p>
+            <p>Programming</p>
+        </div>
+        </div>
+       
          </div>
          </div>
 

@@ -115,10 +115,10 @@ const Lessons = () => {
     <div className="pt-[80px] flex flex-col items-center justify-center gap-8 my-8">
       {lessons.map((lesson) => (
         <div
-          className="flex gap-8 border-[2px] border-gray-200 rounded-xl overflow-hidden shadow-sm"
+          className="flex gap-8 border-[2px] border-gray-200 rounded-xl overflow-hidden shadow-sm py-4 md:py-0"
           key={lesson.key}
         >
-          <div className="flex flex-col items-center justify-center w-[400px]">
+          <div className="flex flex-col items-center justify-center lg:w-[400px] w-[300px]">
             <div className="flex items-center gap-4">
               <span>{lesson.icon}</span>
               <p className="text-xl font-semibold">{lesson.key}</p>
@@ -136,8 +136,8 @@ const Lessons = () => {
               </Link>
             </div>
           </div>
-          <div className="w-[500px] rounded-r-xl shadow-sm">
-            <img src={lesson.image} alt="lesson Image" />
+          <div className="lg:w-[500px] sm:w-[350px] rounded-r-xl shadow-sm md:block hidden">
+            <img src={lesson.image} alt="lesson Image" className=""/>
           </div>
         </div>
       ))}

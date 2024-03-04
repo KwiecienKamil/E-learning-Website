@@ -8,24 +8,23 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative h-[500px] bg-gradient-to-r from-gradient1 to-gradient2 overflow-hidden">
-      <div className="h-full w-full xl:px-[250px] px-[5%] flex items-center justify-between ">
+    <div className="relative lg:h-[500px] md:h-[400px] h-[300px] bg-gradient-to-r from-gradient1 to-gradient2 overflow-hidden">
+      <div className="h-full w-full xl:px-[280px] sm:px-[5%] px-[3%] flex items-center justify-between ">
         <div className="flex flex-col items-center justify-center gap-4 font-semibold">
-          <h2 className="lg:text-4xl text-2xl">
+          <h2 className="lg:text-4xl md:text-xl sm:text-lg text-md">
             Build Your Coding Skills
           </h2>
-          <Link href="/lessons" className="px-4 py-2 rounded-xl bg-primary text-white hover:brightness-90 z-10">Start now</Link>
+          <Link href="/lessons" className="xl:text-xl lg:text-md text-[12px] md:px-4 md:py-2 px-2 py-1 sm rounded-xl bg-primary text-white hover:brightness-90 z-10">Start now</Link>
         </div>
         <Image
           src={student}
           alt="student"
-          width={500}
-          className="absolute bottom-0 xl:right-32 right-0 z-[10]"
+          className="lg:w-[500px] md:w-[400px] w-[300px] absolute bottom-0 xl:right-32 lg:right-0 md:-right-20 sm:right-0 -right-12 z-[10]"
         />
         <Image
         src={backgroundText}
         alt="backgroundtrext"
-        className="absolute right-8 xl:max-w-[600px] max-w-[400px]"
+        className="absolute lg:right-8 md:right-0 right-4 2xl:max-w-[800px] xl:max-w-[600px] lg:max-w-[500px] md:max-w-[400px] sm:max-w-[200px] max-w-[150px]"
         />
         <Image
         src={vectorY}
