@@ -18,7 +18,7 @@ const LessonDetails = ({params}:{
           </div>
           <div className='flex flex-col gap-16'>
             {item.topics?.map(topic => (
-              <div className="flex flex-col gap-2 border-[1px] rounded-xl overflow-hidden">
+              <div className="flex flex-col gap-2 border-[1px] rounded-xl overflow-hidden" key={item.key}>
                 <p className='md:w-[550px] w-[350px] px-4 pt-1'>{topic.desc}</p>
                 <span className='max-w-[550px] px-4 py-2 bg-gray-300 font-logo'>{topic.usage}</span>
               </div>
