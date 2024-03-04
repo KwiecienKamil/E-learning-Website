@@ -40,7 +40,7 @@ export const lessons = [
     key: "Lesson 2",
     title: "5 JavaScript interview questions",
     icon: <IoLogoJavascript size="2em" />,
-    level: "Intermidiate",
+    level: "Intermediate",
     image:"https://miro.medium.com/v2/resize:fit:1200/1*LyZcwuLWv2FArOumCxobpA.png",
       topics: [
         {
