@@ -17,7 +17,7 @@ const SectionLessons = () => {
       </div>
       <div className="grid xl:grid-cols-4 grid-cols-2 gap-4 xl:px-[280px] px-[5%] py-4 mt-8">
         <LessonCard icon={<FaGithub size="2em"/>} title="Pushing To Repository on Github" text="Basic" id="1"/>
-        <LessonCard icon={<IoLogoJavascript size="2em"/>} title="5 JavaScript interview questions" text="Intermidiate" id="2"/>
+        <LessonCard icon={<IoLogoJavascript size="2em"/>} title="5 JavaScript interview questions" text="Intermediate" id="2"/>
         <LessonCard icon={<IoLogoCss3 size="2em"/>} title="Changing Background Color On Website" text="Basic" id="3"/>
         <LessonCard icon={<IoLogoCss3 size="2em"/>} title="Centering a div" text="Basic" id="4"/>
       </div>
