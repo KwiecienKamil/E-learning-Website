@@ -12,7 +12,7 @@ const LessonDetails = ({params}:{
       <div>
       <h2 className='text-3xl font-semibold text-center pt-4 text-primary'>Lesson {params.id}</h2>
       {currLesson.map(item => (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4" key={item.key}>
           <div>
             <h3 className='text-center pb-4'>{item.title}</h3>
           </div>
